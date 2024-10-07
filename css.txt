@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px; /* Padding for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the maximum width */
+    width: 100%; /* Responsive width */
+}
+
+h2 {
+    font-size: 28px; /* Header font size */
+    margin-bottom: 30px; /* Space below the header */
+    color: #333; /* Darker header color */
+}
+
+.form-group {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    margin-bottom: 20px; /* Space between each form group */
+    align-items: flex-start; /* Align items to the start */
+}
+
+label {
+    font-weight: bold; /* Bold labels for visibility */
+    color: #555; /* Lighter color for labels */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for select */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border styling */
+    font-size: 14px; /* Reduced font size for dropdown */
+}
+
+input[type="text"] {
+    flex-grow: 1; /* Input will take the remaining space */
+    padding: 12px; /* Padding for input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border styling */
+    font-size: 16px; /* Font size for input */
+}
+
+button {
+    padding: 12px 25px; /* Padding for buttons */
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color for buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size for buttons */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.logo {
+    width: 120px; /* Logo size */
+    height: auto; /* Auto height for logo */
+    display: block;
+    margin: 0 auto 30px; /* Center logo with space below */
+}
+
+.button {
+    display: inline-block; /* Display as inline block */
+    padding: 12px 25px; /* Consistent button size */
+    font-size: 18px; /* Font size for buttons */
+    color: #fff; /* Text color for buttons */
+    background-color: #007bff; /* Button color */
+    text-align: center; /* Center text in button */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
