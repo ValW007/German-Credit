@@ -1,0 +1,14 @@
+<head>
+    <meta name = "viewpoint"content ="width=device-width", initial-scale=1.0">
+    <link rel = "stylesheet" href="{{url_for("static",filename="styles.css")}}">
+</head>
+    
+</body>
+<div class = "container">   
+    <h2> Is this a Scam? </h2>
+    <form action="/check_scam_result" method="post">
+        <h4>Check if the following URL is a scam:.</h4>
+        <p><input type = "text" name="url"></p>
+        <p><input type="submit" value ="Enter"></p>
+    </form> 
+</div>
